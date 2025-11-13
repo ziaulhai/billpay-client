@@ -5,6 +5,7 @@ import { toast, Toaster } from 'react-hot-toast';
 import { FaGoogle } from 'react-icons/fa'; 
 import useDynamicTitle from '../../hooks/useDynamicTitle'
 
+
 const Register = () => {
      
     useDynamicTitle('Register');

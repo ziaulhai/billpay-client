@@ -6,6 +6,7 @@ import { RouterProvider } from 'react-router-dom'
 import AuthContextProvider from './AuthProvider.jsx'
 import { Toaster } from 'react-hot-toast'
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <AuthContextProvider>

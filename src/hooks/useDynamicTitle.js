@@ -7,6 +7,7 @@ const useDynamicTitle = (title) => {
 
         document.title = `${title} | BillPay`;
 
+        
         return () => {
             document.title = previousTitle;
         };

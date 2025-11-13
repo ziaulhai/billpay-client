@@ -7,6 +7,7 @@ import ThemeToggler from '../Shared/ThemeToggler';
 const Navbar = () => {
   const { user, logOut, loading } = useContext(AuthContext);
 
+  
   const handleLogout = () => {
     logOut()
       .then(() => {
